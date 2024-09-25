@@ -35,7 +35,6 @@ section {
 .half-width img {
     width: 100%;
 }
-
 .btnstle  {
     text-decoration: none;
     font-size:20px;
@@ -57,7 +56,6 @@ section {
 .biography {
     margin-top: 10%;
 }
-
 .lwork-txt h2 {
     font-size: 40px;
     text-align: center;
@@ -67,9 +65,49 @@ section {
 .gallery {
     width: 80%;
     margin-left: 10%;
+    position: absolute;
 }
 .gallery-img {
     height: 260px;
     width: 320px;
     margin-left: 30px;  
+    
+}
+.photo {
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.photo:hover img {
+    transform: scale(1.2);
+    transition: 1.4s;
+}
+.client-say {
+    text-align: center;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.cnt-nam {
+    margin:70px 0 50px 0;
+}
+.address {
+    font-size: small;
+}
+.testimonial p {
+    width: 40%;
+    text-align: center;
+    margin-left: 412px; 
+    margin-bottom:60px;
+}
+.contact-area {
+    background: #EC4C7A;
+    color: white;
+    padding: 10px ;
+    margin: 0 30%;
+    border-radius: 5px;
+}
+.mail {
+    font-size: 20px;
 }
