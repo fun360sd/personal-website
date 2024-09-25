@@ -108,6 +108,10 @@ section {
     margin: 0 30%;
     border-radius: 5px;
 }
+.contact-area:hover .mail {
+    font-size: 25px;
+    transition: 1.4s;
+}
 .mail {
     font-size: 20px;
 }
