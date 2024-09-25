@@ -14,29 +14,28 @@ p{
     font-size: 18px;
     margin-bottom:40px;
 }
-.container {
-    height: 400px;
+section {
+    height: 550px;
 }
 .head {
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
-
+    background-size: cover;
 }
 .name {
     color:#EC4C7A;
 }
 .half-width {
-    width: 40%;
+    width: 30%;
     float: left;
-    margin-left: 5%;
+    margin-left: 10%;
+    margin-right: 5%;
     padding: 2%;
 }
 .half-width img {
     width: 100%;
 }
-.headfst {
-    margin-top: 100px;
-}
+
 .btnstle  {
     text-decoration: none;
     font-size:20px;
@@ -48,4 +47,29 @@ p{
 }
 .btnstle:hover {
     background: linear-gradient(240deg, #EC4C7A, rgb(241, 15, 60), rgb(219, 141, 6))
+}
+.bio-area {
+    height: 550px;
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.biography {
+    margin-top: 10%;
+}
+
+.lwork-txt h2 {
+    font-size: 40px;
+    text-align: center;
+   margin-top: 100px;
+    margin-bottom: 50px;
+}
+.gallery {
+    width: 80%;
+    margin-left: 10%;
+}
+.gallery-img {
+    height: 260px;
+    width: 320px;
+    margin-left: 30px;  
 }
